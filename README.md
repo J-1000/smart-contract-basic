@@ -19,5 +19,10 @@ $ truffle(development)> box.store(23)
 ```
 
 ```bash
-$ truffle(development)> box.retrieve()
+// There is top level await available
+$ truffle(development)> (await box.retrieve()).toString()
+```
+
+```bash
+$ npx truffle exec --network development ./scripts/index.js
 ```
