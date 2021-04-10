@@ -1,6 +1,10 @@
+#### Start up local blockchain
+
 ```bash
 $ npx ganache-cli --deterministic
 ```
+
+#### Compile 
 
 ```bash
 $ npx truffle migrate --network development
