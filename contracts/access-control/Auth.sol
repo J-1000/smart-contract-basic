@@ -5,7 +5,6 @@ contract Auth {
     address private administrator;
 
     constructor() {
-        // Make the deployer of the contract the administrator
         administrator = msg.sender;
     }
 
